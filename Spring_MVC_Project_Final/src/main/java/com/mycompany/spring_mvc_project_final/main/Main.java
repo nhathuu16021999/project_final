@@ -21,4 +21,5 @@ public class Main {
         BCryptPasswordEncoder encoder = new BCryptPasswordEncoder();
         return encoder.encode(password);
     }
+    
 }
